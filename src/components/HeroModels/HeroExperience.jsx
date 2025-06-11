@@ -4,6 +4,7 @@ import { useMediaQuery } from 'react-responsive'
 import { Room } from "./Room.jsx"
 import HeroLights from './HeroLights.jsx'
 
+/* TODO: change this to refactor size */
 const HeroExperience = () => {
   const isTablet = useMediaQuery({ query: '(max-width: 1024px)' })
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
